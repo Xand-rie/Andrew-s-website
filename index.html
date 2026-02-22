@@ -1,42 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Andrew's Cyber Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Ssemambo | Developer-Entrepreneur</title>
     <style>
-      body {
-        background-color: #1a1a1a; /* Dark gray for the whole page */
-        color: white;
-        font-family: Arial, sans-serif;
-        padding: 20px;
-      }
+        /* --- Branding Colors from your LaTeX --- */
+        :root {
+            --deep-blue: rgb(0, 51, 102);
+            --grey-text: rgb(80, 80, 80);
+            --light-bg: #f9f9f9;
+        }
 
-      /* This styles ONLY the section with the class 'highlight-box' */
-      .highlight-box {
-        background-color: #39ff14; /* Neon green from Adobe Color */
-        color: #000;               /* Black text for readability on green */
-        padding: 15px;
-        border-radius: 10px;       /* Rounds the corners */
-        margin: 20px 0;
-      }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+        }
 
-      h1 { color: #00ffff; } /* Electric cyan */
+        /* --- Header / Title Page Style --- */
+        header {
+            background-color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--deep-blue);
+        }
+
+        h1 { color: var(--deep-blue); font-size: 2.5rem; margin-bottom: 10px; }
+        .subtitle { font-style: italic; color: var(--grey-text); font-size: 1.2rem; }
+
+        /* --- Layout Containers --- */
+        main { max-width: 900px; margin: 30px auto; padding: 20px; background: white; box-shadow: 0 0 15px rgba(0,0,0,0.05); }
+        
+        section { margin-bottom: 40px; }
+        h2 { color: var(--deep-blue); border-left: 5px solid var(--deep-blue); padding-left: 15px; text-transform: uppercase; }
+
+        /* --- Table Styling --- */
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: var(--deep-blue); color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #ddd; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+
+        /* --- Footer --- */
+        footer { text-align: center; padding: 20px; color: var(--grey-text); font-size: 0.9rem; border-top: 1px solid #ddd; }
+        .highlight { font-weight: bold; color: var(--deep-blue); }
     </style>
-  </head>
-  <body>
-    <header>
-      <h1>Smart 🌐 Internet Cafe Dream</h1>
-    </header>
-    
-    <!-- We added class="highlight-box" here! -->
-    <section class="highlight-box">
-      <h2>Core Components</h2>
-      <p>This section now has its own unique background! 🎨</p>
+</head>
+<body>
+
+<header>
+    <h1>MY CAREER PATH & THE SMART CAFÉ VISION</h1>
+    <p class="subtitle">A Strategy for Academic & Business Success in Uganda</p>
+    <p><strong>Andrew SSEMAMBO</strong> | Future Developer-Entrepreneur</p>
+</header>
+
+<main>
+    <!-- Personal Statement -->
+    <section>
+        <h2>Personal Statement</h2>
+        <p>This document is a product of my independent research to bridge the gap between technical expertise and business ownership in Uganda. I, <span class="highlight">Andrew Ssemambo</span>, have developed this roadmap to align my university education with my dream of launching a high-performance internet café.</p>
     </section>
 
+    <!-- Chapter 1: Academic Path -->
     <section>
-      <h2>🚀 Future Strategies</h2>
-      <p>Refer to <a href="https://xand-rie.github.io">My page</a></p>
+        <h2>Chapter 1: Academic Path</h2>
+        <p>Researching <strong>Makerere University</strong> (Research-heavy) vs. <strong>Kyambogo University</strong> (Practical-heavy).</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Goal</th>
+                    <th>Best Program</th>
+                    <th>Key Resource</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Development</td>
+                    <td>Mak BIST</td>
+                    <td>Web Systems & Tech</td>
+                </tr>
+                <tr>
+                    <td>Business Start-up</td>
+                    <td>KYU-BIC</td>
+                    <td>Incubation Center</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-  </body>
+
+    <!-- Chapter 2: The Vision -->
+    <section>
+        <h2>Chapter 2: The Internet Café Vision</h2>
+        <p><strong>Budget (3-Station Starter):</strong> Estimated Capital <span class="highlight">~5,800,000 UGX</span></p>
+        
+        <h3>The "Café as a Lab" Strategy</h3>
+        <ul>
+            <li><strong>Direct Sales:</strong> Browsing and research fees.</li>
+            <li><strong>The Developer Office:</strong> Building websites for local businesses (UGX 500k – 1.5M per project).</li>
+            <li><strong>Custom Software:</strong> Writing my own <span class="highlight">Billing Logic</span> as a live test.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p><strong>Andrew Ssemambo</strong> | Developer-Entrepreneurial Roadmap | February 2026</p>
+    <p><em>“I am now officially on my way to becoming a developer-entrepreneur!”</em></p>
+</footer>
+
+</body>
 </html>
